@@ -1,0 +1,22 @@
+{
+  "name": "flashcards",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-scripts": "1.0.17"
+  },
+  "scripts": {
+    "start-app": "react-scripts start",
+    "build-app": "react-scripts build",
+    "start": "start-storybook -p 9009 -s public",
+    "build": "build-storybook -s public"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.2.14",
+    "@storybook/addon-links": "^3.2.14",
+    "@storybook/addon-options": "^3.2.14",
+    "@storybook/react": "^3.2.14"
+  }
+}
