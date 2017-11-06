@@ -1,3 +1,10 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 html, body, #root {
   margin: 0;
   padding: 0;
@@ -6,4 +13,6 @@ html, body, #root {
 body {
   min-height: 100vh;
   overflow: hidden;
+  font-family: sans-serif;
+  font-size: 30px;
 }
